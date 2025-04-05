@@ -41,11 +41,11 @@ public class BalanceTree{
                     MaximumDepth(current.leftchild)
                      }
                       else if(current.rightChild != null){
-                              int count += 1;
+                              
                               MaximumDepth(current.leftChild)
                              }
                              }
-                          count +=1;
+                          
                      }
                return count;
                               
