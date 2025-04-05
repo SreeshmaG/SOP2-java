@@ -45,6 +45,7 @@ public class BalanceTree{
                               MaximumDepth(current.leftChild)
                              }
                              }
+                      count++;
                           
                      }
                return count;
